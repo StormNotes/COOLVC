@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgba(0, 17, 32, 0.42);
+  color: white;
+  font-family: 'Nova Mono', monospace;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: black;
+}
+
+ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 83vh;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  position: relative;
+  width: 100%;
+  height: 20%;
+  border-bottom: 4px solid black;
+  float: left;
+  box-sizing: border-box;
+  transition: 1.2s;
+  text-align: center;
+  overflow: hidden;
+}
+
+ul:hover li {
+  height: 10%;
+}
+
+ul li:hover {
+  height: 65%;
+}
+
+ul li .contentINone {
+  background: rgba(0, 0, 0, 0.91);
+  color: white;
+  position: absolute;
+  bottom: -2350%;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  transition: 1.4s;
+
+}
+
+ul li:hover .contentINone {
+  transition-delay: 1.0s;
+  bottom: 0;
+
+}
+
+ul li .contentINtwo {
+  background:rgba(0, 0, 0, 0.91);
+  color: white;
+  position: absolute;
+  bottom: -2350%;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  transition: 1.0s;
+}
+
+ul li:hover .contentINtwo {
+  transition-delay: 1.0s;
+  bottom: 0;
+
+}
+
+ul li .contentINfour {
+  background: rgba(0, 0, 0, 0.91);
+  color: white;
+  position: absolute;
+  bottom: -2350%;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  transition: 1.8s;
+}
+
+ul li:hover .contentINfour {
+  transition-delay: 1.0s;
+  bottom: 0;
+
+}
+
+.content h1{
+  padding-top: 20px;
+}
+
+ h3{
+   margin: 3px;
+  padding: 5px 5px;
+  border: 3px solid white;
+  border-radius: 20px;
+  transition: 1.2s;
+}
+
+h3:hover{
+
+  background: rgb(100, 146, 224);
+
+}
+
+@media (max-width:1280px){
+
+  .content{
+    height: 110vh;
+    font-size:2.3vw;
+}
+/* For Phones*/
+@media(max-width:676px){
+
+  .content{
+    height: 120vh;
+    transition: 0.7s;
+    color:orange;
+    font-size:3vw;
+}
+@media (max-width:355px){
+
+  .content{
+    height: 140vh;
+    transition: 0.7s;
+    color:yellow;
+    font-size:3.6vw;
+}

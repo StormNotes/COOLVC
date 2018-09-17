@@ -1,0 +1,31 @@
+ul li:nth-child(1){
+  background-image: url(../images/office.jpg);
+  background-size:cover;
+  background-position:left;
+}
+
+ul li:nth-child(2){
+
+  background-image: url(../images/lang.jpg);
+  background-size:cover;
+  background-position:left;
+}
+
+ul li:nth-child(3){
+  background-image: url(../images/img1.jpg);
+  background-size:cover;
+  background-position:left;
+}
+
+ul li:nth-child(4){
+  background-image: url(../images/work.jpg);
+  
+  background-size:cover;
+  background-position:left;
+}
+
+ul li:nth-child(5){
+  background-image: url(../images/code.png);
+  background-size:cover;
+  background-position:left;
+}
