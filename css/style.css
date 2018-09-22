@@ -4,10 +4,10 @@
 }
 
 body {
-  background: rgba(0, 17, 32, 0.42);
+  background: rgba(61, 61, 61, 0.15);
   color: white;
   font-family: 'Nova Mono', monospace;
-  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-width: 0.2px;
   -webkit-text-stroke-color: black;
 }
 
@@ -35,11 +35,11 @@ ul li {
 }
 
 ul:hover li {
-  height: 10%;
+  height: 12%;
 }
 
 ul li:hover {
-  height: 65%;
+  height: 55%;
 }
 
 ul li .contentINone {
@@ -112,6 +112,30 @@ h3:hover{
 
 }
 
+#expe{
+  padding: 3.5px;
+}
+ul li:nth-child(6):hover{
+  display: block;
+  background: rgba(175, 208, 127,0.90);
+}
+
+a{
+  background: white;
+  text-decoration: none !important;
+  margin-top: 30px;
+  color: black;
+  padding: 20px 40px;
+  border: 3px solid black;
+  border-radius: 30px;
+  transition: 0.9s;
+}
+
+a:hover{
+  background: rgb(196, 214, 241);
+}
+
+
 @media (max-width:1280px){
 
   .content{
@@ -125,7 +149,7 @@ h3:hover{
     height: 120vh;
     transition: 0.7s;
     color:orange;
-    font-size:3vw;
+    font-size:2.7vw;
 }
 @media (max-width:355px){
 
